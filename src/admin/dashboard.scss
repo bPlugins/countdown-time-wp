@@ -1,0 +1,12 @@
+:root {
+	--bpl-dashboard-primary-color: #78d090;
+	--bpl-dashboard-primary-color-rgb: 120, 208, 144;
+	--bpl-dashboard-secondary-color: #2e373b;
+	--bpl-dashboard-secondary-color-rgb: 46, 55, 59;
+	--bpl-dashboard-title-color: #070127;
+	--bpl-dashboard-title-color-rgb: 7, 1, 39;
+	--bpl-dashboard-content-color: #1b2e4b;
+	--bpl-dashboard-content-color-rgb: 27, 46, 75;
+}
+
+@import '../../../bpl-tools/Admin/style.scss';

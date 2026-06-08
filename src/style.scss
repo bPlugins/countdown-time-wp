@@ -1,0 +1,102 @@
+.wp-block-ctb-countdown-time {
+	display: flex;
+	transition: opacity .3s ease-in-out, transform 8s ease-in-out;
+
+	* {
+		box-sizing: border-box;
+	}
+
+	.ctbCountdownTime {
+		max-width: 100%;
+		display: inline-flex;
+		align-items: center;
+		// justify-content: center;
+		// flex-direction: column;
+		position: relative;
+
+		.countdownClose {
+			fill: #333;
+			position: absolute;
+			top: 3px;
+			right: 4px;
+			outline: 0;
+			cursor: pointer;
+			z-index: 10;
+		}
+	}
+
+	.countdownItems {
+		display: flex;
+		flex-grow: 1;
+		align-items: center;
+		max-width: 100%;
+
+		.countdownItem {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+
+			.digit {
+				display: block;
+				font-weight: 400;
+			}
+
+			.label {
+				text-transform: none;
+				font-style: normal;
+				text-decoration: initial;
+				line-height: 100%;
+				display: block;
+			}
+
+			&.inline {
+				flex-direction: row;
+				justify-content: center;
+
+				.digit {
+					display: flex;
+					flex: 1 1 0%;
+					justify-content: center;
+				}
+
+				.label {
+					display: flex;
+					flex: 1 1 0%;
+				}
+			}
+		}
+
+		.separator {
+			position: relative;
+
+			&::before {
+				position: absolute;
+				top: 50%;
+				transform: translate(-50%, -65%);
+				line-height: 100%;
+			}
+		}
+
+		.countdownItem.inline~.separator {
+			&::before {
+				transform: translate(-50%, -60%);
+			}
+		}
+	}
+
+	&.transformHidden {
+		transform: translateY(-9999px);
+		opacity: 0;
+	}
+
+	@media (max-width: 575px) {
+		.countdownItems.ctbResponsive {
+			flex-direction: column;
+
+			.separator {
+				transform: rotate(90deg);
+			}
+		}
+	}
+}

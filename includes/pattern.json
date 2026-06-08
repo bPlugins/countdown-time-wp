@@ -1,0 +1,74 @@
+[
+	{
+		"name": "ctb-patterns/countdown-2",
+		"title": "Countdown Time 2",
+		"description": "Countdown Time Design",
+		"type": "patterns",
+		"categories": [
+			"countdown"
+		],
+		"keywords": [
+			"countdown timer block",
+			"countdown ceremony time",
+			"countdown events time"
+		],
+		"blockTypes": [
+			"ctb/countdown-time"
+		],
+		"content": "<!-- wp:ctb/countdown-time {\"destDate\":\"\",\"width\":\"700px\",\"background\":{\"color\":\"rgba(254, 206, 204, 1)\",\"type\":\"solid\"},\"padding\":{\"vertical\":\"10px\",\"horizontal\":\"15px\",\"side\":2,\"top\":\"0px\",\"right\":\"0px\",\"bottom\":\"0px\",\"left\":\"0px\"},\"shadow\":{\"type\":\"box\",\"hOffset\":\"0px\",\"vOffset\":\"0px\",\"blur\":\"0px\",\"spreed\":\"0px\",\"color\":\"#7090b0\",\"isInset\":false},\"boxBG\":{\"type\":\"solid\",\"color\":\"rgba(0, 0, 0, 0)\"},\"boxWidth\":\"120px\",\"boxBorder\":{\"radius\":\"5%\",\"width\":\"0px\",\"style\":\"solid\",\"color\":\"#0000\",\"side\":\"all\"},\"boxShadow\":{\"type\":\"box\",\"hOffset\":\"0px\",\"vOffset\":\"0px\",\"blur\":\"0px\",\"spreed\":\"0px\",\"color\":\"#7090b0\",\"isInset\":false},\"digitTypo\":{\"fontSize\":{\"desktop\":48,\"tablet\":40,\"mobile\":32},\"fontWeight\":700,\"fontVariant\":\"700\"},\"labelTypo\":{\"fontSize\":{\"desktop\":16,\"tablet\":16,\"mobile\":16},\"fontWeight\":700,\"fontVariant\":\"700\"},\"labelColor\":\"rgba(0, 0, 0, 0.33)\",\"isSep\":true,\"sepSize\":48,\"sepColor\":\"rgba(255, 255, 255, 0.5)\"} /-->"
+	},
+	{
+		"name": "ctb-patterns/countdown-3",
+		"title": "Countdown Time 3",
+		"description": "Countdown Time Design",
+		"type": "patterns",
+		"categories": [
+			"countdown"
+		],
+		"keywords": [
+			"countdown timer block",
+			"countdown ceremony time",
+			"countdown events time"
+		],
+		"blockTypes": [
+			"ctb/countdown-time"
+		],
+		"content": "<!-- wp:ctb/countdown-time {\"destDate\":\"\",\"width\":\"700px\",\"background\":{\"color\":\"rgba(30, 32, 44, 1)\",\"type\":\"solid\"},\"padding\":{\"vertical\":\"10px\",\"horizontal\":\"15px\",\"side\":2,\"top\":\"0px\",\"right\":\"0px\",\"bottom\":\"0px\",\"left\":\"0px\"},\"shadow\":{\"type\":\"box\",\"hOffset\":\"0px\",\"vOffset\":\"0px\",\"blur\":\"0px\",\"spreed\":\"0px\",\"color\":\"#7090b0\",\"isInset\":false},\"boxBG\":{\"type\":\"solid\",\"color\":\"rgba(0, 0, 0, 0)\"},\"boxWidth\":\"100px\",\"boxBorder\":{\"radius\":\"5%\",\"width\":\"0px\",\"style\":\"solid\",\"color\":\"#0000\",\"side\":\"all\"},\"boxShadow\":{\"type\":\"box\",\"hOffset\":\"0px\",\"vOffset\":\"0px\",\"blur\":\"0px\",\"spreed\":\"0px\",\"color\":\"#7090b0\",\"isInset\":false},\"digitTypo\":{\"fontSize\":{\"desktop\":48,\"tablet\":40,\"mobile\":32},\"googleFontLink\":\"https://fonts.googleapis.com/css2?family=Play&display=swap\",\"fontFamily\":\"Play\",\"fontCategory\":\"sans-serif\",\"fontWeight\":400,\"fontVariant\":400},\"labelTypo\":{\"fontSize\":{\"desktop\":18,\"tablet\":18,\"mobile\":16},\"googleFontLink\":\"https://fonts.googleapis.com/css2?family=Play&display=swap\",\"fontFamily\":\"Play\",\"fontCategory\":\"sans-serif\",\"fontWeight\":400,\"fontVariant\":400},\"isSep\":true,\"sepColor\":\"rgba(255, 255, 255, 1)\"} /-->"
+	},
+	{
+		"name": "ctb-patterns/countdown-4",
+		"title": "Countdown Time 4",
+		"description": "Countdown Time Design",
+		"type": "patterns",
+		"categories": [
+			"countdown"
+		],
+		"keywords": [
+			"countdown timer block",
+			"countdown ceremony time",
+			"countdown events time"
+		],
+		"blockTypes": [
+			"ctb/countdown-time"
+		],
+		"content": "<!-- wp:ctb/countdown-time {\"destDate\":\"\",\"background\":{\"color\":\"#0000\",\"type\":\"solid\"},\"padding\":{\"vertical\":\"10px\",\"horizontal\":\"15px\",\"side\":2,\"top\":\"0px\",\"right\":\"0px\",\"bottom\":\"0px\",\"left\":\"0px\"},\"shadow\":{\"type\":\"box\",\"hOffset\":\"0px\",\"vOffset\":\"0px\",\"blur\":\"0px\",\"spreed\":\"0px\",\"color\":\"#7090b0\",\"isInset\":false},\"boxBG\":{\"type\":\"solid\",\"color\":\"rgba(238, 104, 84, 1)\"},\"boxWidth\":\"120px\",\"boxSpace\":\"5px\",\"boxBorder\":{\"radius\":\"0%\",\"width\":\"0px\",\"style\":\"solid\",\"color\":\"#0000\",\"side\":\"all\"},\"boxShadow\":{\"type\":\"box\",\"hOffset\":\"0px\",\"vOffset\":\"0px\",\"blur\":\"0px\",\"spreed\":\"0px\",\"color\":\"#7090b0\",\"isInset\":false},\"digitTypo\":{\"fontSize\":{\"desktop\":25,\"tablet\":22,\"mobile\":20},\"fontWeight\":500,\"fontVariant\":\"500\"},\"labelTypo\":{\"fontSize\":{\"desktop\":18,\"tablet\":18,\"mobile\":16}}} /-->"
+	},
+	{
+		"name": "ctb-patterns/countdown-5",
+		"title": "Countdown Time 5",
+		"description": "Countdown Time Design",
+		"type": "patterns",
+		"categories": [
+			"countdown"
+		],
+		"keywords": [
+			"countdown timer block",
+			"countdown ceremony time",
+			"countdown events time"
+		],
+		"blockTypes": [
+			"ctb/countdown-time"
+		],
+		"content": "<!-- wp:ctb/countdown-time {\"destDate\":\"\",\"width\":\"100%\",\"background\":{\"type\":\"gradient\",\"gradient\":\"linear-gradient(180deg,rgb(1,1,1) 0%,rgb(61,62,65) 100%)\"},\"padding\":{\"vertical\":\"50px\",\"horizontal\":\"15px\",\"side\":2,\"top\":\"0px\",\"right\":\"0px\",\"bottom\":\"0px\",\"left\":\"0px\"},\"shadow\":{\"type\":\"box\",\"hOffset\":\"0px\",\"vOffset\":\"0px\",\"blur\":\"0px\",\"spreed\":\"0px\",\"color\":\"#7090b0\",\"isInset\":false},\"boxBG\":{\"type\":\"solid\",\"color\":\"rgba(255, 255, 255, 0.2)\"},\"boxWidth\":\"120px\",\"boxSpace\":\"15px\",\"boxBorder\":{\"radius\":\"0%\",\"width\":\"0px\",\"style\":\"solid\",\"color\":\"#0000\",\"side\":\"all\"},\"boxShadow\":{\"type\":\"box\",\"hOffset\":\"0px\",\"vOffset\":\"0px\",\"blur\":\"0px\",\"spreed\":\"0px\",\"color\":\"#7090b0\",\"isInset\":false},\"digitTypo\":{\"fontSize\":{\"desktop\":48,\"tablet\":40,\"mobile\":32},\"fontWeight\":700,\"fontVariant\":\"700\"},\"labelTypo\":{\"fontSize\":{\"desktop\":18,\"tablet\":18,\"mobile\":16}},\"labelColor\":\"rgba(250, 232, 43, 1)\"} /-->"
+	}
+]
