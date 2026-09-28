@@ -1,9 +1,9 @@
-=== Countdown Timer Block – Animated Countdown for Events or Launches ===
+=== Countdown Timer Block – Build urgency for events and launches ===
 Contributors: bplugins, abuhayat, charlescormier, freemius
 Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, countdown timer blocks, timer, count time, event date
 Requires at least: 6.5
-Tested up to: 7.0
+Tested up to: 7.1
 Stable tag: 1.3.3
 Requires PHP: 7.4
 License: GPLv3 or later
@@ -16,6 +16,8 @@ Display your event's date on a timer to your visitor with a countdown timer bloc
 👉 [Plugin Demo](https://bplugins.com/products/countdown-time/) | [Documentation](https://ctb.bplugins.com/docs/) | [Get Pro Version](https://bplugins.com/products/countdown-time/pricing/) 👈
 
 Professionally showcase your countdown timer. This plugin adds a new block in the Block Editor by which you can create a professional-looking countdown timer block!
+
+https://youtube.com/watch?v=DW02aMWHJbE
 
 It is very effective in presenting your countdown timer nicely. There are many options that you can use to decorate your countdown timer in any color you like.
 
@@ -270,7 +272,7 @@ This plugin bundles the following third-party JavaScript/PHP libraries.
 * **GitHub:** [https://github.com/bPlugins/freemius-lite-sdk](https://github.com/bPlugins/freemius-lite-sdk)
 * **License:** GPL-2.0-or-later – [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
 * **Purpose:** Provides an opt-in consent form for usage tracking and analytics to help improve the plugin. No data is sent before explicit user consent.
-* **External Services:** Communicates with `api.bplugins.com` (activation events) and `wp.freemius.com` (opt-in processing) only after user opt-in. See [bPlugins Privacy Policy](https://bplugins.com/privacy-policy) and [Freemius Privacy Policy](https://freemius.com/privacy/).
+* **External Services:** Communicates with `api.bplugins.com` (activation events) and `wp.freemius.com` (opt-in processing) only after user opt-in. See [bPlugins Privacy Policy](https://bplugins.com/privacy-policy/) and [Freemius Privacy Policy](https://freemius.com/privacy/).
 
 = bpl-tools =
 * Source / GitHub: https://github.com/bPlugins/bpl-tools

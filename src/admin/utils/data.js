@@ -31,7 +31,7 @@ export const dashboardInfo = (info) => {
 			org: `https://wordpress.org/plugins/${slug}/`,
 			// landing: `https://bplugins.com/products/${slug}/`,
 			docs: `https://ctb.bplugins.com/docs/`,
-			pricing: `https://bplugins.com/products/${slug}/pricing`,
+			pricing: `https://bplugins.com/products/${slug}/pricing/`,
 		},
 		freemius: {
 			product_id: 14562,
@@ -41,7 +41,7 @@ export const dashboardInfo = (info) => {
 		licenseActiveNonce,
 		startButton: {
 			label: 'Start Now',
-			url: startUrl || `post-new.php?post_type=page&title=Countdown Timer&content=<!-- wp:ctb/countdown-time /-->`
+			url: startUrl
 		}
 	}
 }
@@ -136,7 +136,7 @@ export const welcomeInfo = (adminUrl) => ({
 
 export const demoInfo = {
 	allInOneLabel: 'See All Demos',
-	allInOneLink: 'https://ctb.bplugins.com/all-demos-in-one-place/',
+	// allInOneLink: '',
 	demos: [
 		{
 			title: 'Layout',

@@ -3,15 +3,19 @@ import { __ } from '@wordpress/i18n';
 import { InnerBlocks, RichText, useBlockProps } from '@wordpress/block-editor';
 import { Tooltip } from '@wordpress/components';
 
+import useIframeAssetSync from '../../../../bpl-tools/hooks/useIframeAssetSync';
+
 import Settings from './Settings/Settings';
 import Style from '../Common/Style';
 import Countdown from '../Common/Countdown';
 import { closeIcon } from '../../utils/icons';
-import { prefix } from '../../utils/data';
 
 const Edit = props => {
-	const { attributes, setAttributes, clientId } = props;
+	const { attributes, setAttributes } = props;
 	const { destDate } = attributes;
+	const blockProps = useBlockProps();
+
+	useIframeAssetSync(['ctb-countdown-time-editor-style-css', 'ctb-countdown-time-style-css']);
 
 	useEffect(() => {
 		'' === destDate && setAttributes({
@@ -19,13 +23,11 @@ const Edit = props => {
 		});
 	}, [destDate]); // Set Initial Date
 
-	const id = `${prefix}-${clientId}`;
-
 	return <>
 		<Settings attributes={attributes} setAttributes={setAttributes} />
 
-		<div {...useBlockProps()} id={id}>
-			<Style attributes={attributes} id={id} />
+		<div {...blockProps} id={blockProps.id}>
+			<Style attributes={attributes} id={blockProps.id} />
 
 			<Countdown attributes={attributes} Box={Box} closeEl={<Tooltip text='Hide will only work in frontend' placement='top' position='top'>{closeIcon}</Tooltip>} isBackend={true} custom={{ setAttributes }}>
 				<div className='countdownExpired'>

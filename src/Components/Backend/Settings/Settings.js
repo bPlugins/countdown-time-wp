@@ -23,7 +23,7 @@ const Settings = ({ attributes, setAttributes }) => {
 
 			<TabPanel className='bPlTabPanel' activeClass='activeTab' tabs={generalStyleTabs} onSelect={() => tabController()}>{tab => <>
 				{'general' === tab.name && <>
-					<HelpPanel slug={pluginSlug} docsLink='https://ctb.bplugins.com/docs' />
+					<HelpPanel slug={pluginSlug} docsLink='https://ctb.bplugins.com/docs/' />
 
 
 					<PanelBody className='bPlPanelBody' title={__('Countdown Settings', 'countdown-time')}>
